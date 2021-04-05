@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const BackList = () => (
     <Link to={'/pokedex'} style={{ textDecoration: 'none'}}>
-        <button>Back</button>
+        <button>Go Pokédex</button>
     </Link>
 );
 
