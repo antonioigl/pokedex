@@ -3,9 +3,9 @@ import Pagination from "../components/Pagination";
 import Card from "../components/Card";
 import {getPokemon, getPokemons} from "../api";
 import Navbar from "../components/Navbar";
-import '../assets/styles/pages/Index.scss'
 import {Link} from "react-router-dom";
 import Footer from "../components/Footer";
+import '../assets/styles/Styles.scss'
 
 const Index = () => {
 

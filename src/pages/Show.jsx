@@ -6,6 +6,7 @@ import CardDetail from "../components/CardDetail";
 import Footer from "../components/Footer";
 import BackList from "../components/BackList";
 import Card from "../components/Card";
+import '../assets/styles/Styles.scss'
 
 
 const Show = () => {
