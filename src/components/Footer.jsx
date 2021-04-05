@@ -13,7 +13,7 @@ function Footer() {
                 <hr />
                 <div className="row">
                     <p className="col-sm">
-                        <a href="https://github.com/antonioigl" target={'_blank'} rel={'noopener noreferrer'}> github</a>
+                        <a href="https://github.com/antonioigl/pokedex" target={'_blank'} rel={'noopener noreferrer'}> github</a>
                     </p>
                 </div>
             </div>
