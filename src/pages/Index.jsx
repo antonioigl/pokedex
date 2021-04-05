@@ -45,7 +45,7 @@ const Index = () => {
                     <div className="grid-container">
                         {
                             pokemos.map((pokemon) => (
-                                <Link to={`./${pokemon.id}`} style={{ textDecoration: 'none'}} title={pokemon.name} key={pokemon.id}>
+                                <Link to={`/pokedex/${pokemon.id}`} style={{ textDecoration: 'none'}} title={pokemon.name} key={pokemon.id}>
                                     <Card key={pokemon.id} pokemon={pokemon} style={{ cursor: 'pointer'}}/>
                                 </Link>
                             ))
