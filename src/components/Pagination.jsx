@@ -2,7 +2,7 @@ import React from "react";
 
 const Pagination = ({ gotoNextPage}) => (
   <div>
-    {gotoNextPage && <button onClick={gotoNextPage}>Ver más</button>}
+    {gotoNextPage && <button onClick={gotoNextPage}>Show More</button>}
   </div>
 );
 
