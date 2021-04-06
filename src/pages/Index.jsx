@@ -9,7 +9,7 @@ import '../assets/styles/Styles.scss'
 
 const Index = () => {
 
-    const [pokemos, setPokemons] = useState([]);
+    const [pokemons, setPokemons] = useState([]);
     const [currentPageUrl, setCurrentPageUrl] = useState('https://pokeapi.co/api/v2/pokemon');
     const [nextPageUrl, setNextPageUrl] = useState('');
     const [loading, setLoading] = useState(true);
@@ -44,7 +44,8 @@ const Index = () => {
                 <>
                     <div className="grid-container">
                         {
-                            pokemos.map((pokemon) => (
+                            pokemons.map((pokemon) => (
+                                pokemon &&
                                 <Link to={`/pokedex/${pokemon.id}`} style={{ textDecoration: 'none'}} title={pokemon.name} key={pokemon.id}>
                                     <Card key={pokemon.id} pokemon={pokemon} style={{ cursor: 'pointer'}}/>
                                 </Link>
