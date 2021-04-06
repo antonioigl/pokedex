@@ -7,9 +7,9 @@ function App() {
   return(
       <BrowserRouter>
         <Switch>
-            <Route exact path="/pokedex/"  component={Index}/>
+            <Route exact path="/pokedex"  component={Index}/>
             <Route exact path="/pokedex/:id" component={Show}/>
-            <Redirect to="/pokedex/" />
+            <Redirect to="/pokedex" />
         </Switch>
       </BrowserRouter>
   );
